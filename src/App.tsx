@@ -19,7 +19,7 @@ const App = () => {
 			{/* End of Title - Welcome */}
 
 			{/* Bomberman + Bomb */}
-			<section className="bg-dark-secondary w-full h-screen flex flex-col items-center justify-center gap-10">
+			<section className="bg-dark-secondary w-full min-h-screen flex flex-col items-center justify-center gap-10 py-5">
 				<Title
 					isMainHeading={false}
 					text="Bomberman | Bomb"
